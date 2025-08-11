@@ -35,7 +35,6 @@ body {
   margin: 0 auto;
 }
 
-/* Header */
 .site-header {
   position: sticky;
   top: 0;
@@ -80,7 +79,6 @@ body {
   background: var(--glass);
 }
 
-/* Mobile nav toggle */
 .nav-toggle {
   display: none;
 }
@@ -89,7 +87,6 @@ body {
   display: none;
 }
 
-/* Hero */
 .hero {
   padding: 5rem 0;
 }
@@ -183,7 +180,6 @@ body {
   color: rgba(255,255,255,0.85);
 }
 
-/* Panels */
 .panel {
   padding: 5rem 0;
 }
@@ -205,7 +201,6 @@ body {
   border-radius: 3px;
 }
 
-/* Skills */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -236,7 +231,6 @@ body {
   line-height: 1.6;
 }
 
-/* Projects */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -327,7 +321,6 @@ body {
   transform: translateX(3px);
 }
 
-/* Contact */
 .contact-panel {
   background: rgba(11, 18, 32, 0.7);
 }
@@ -408,7 +401,6 @@ textarea {
   transform: scale(1.1);
 }
 
-/* Footer */
 .site-footer {
   background: var(--card);
   border-top: 1px solid rgba(255,255,255,0.1);
@@ -422,7 +414,6 @@ textarea {
   align-items: center;
 }
 
-/* Responsive */
 @media (max-width: 900px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -541,7 +532,6 @@ textarea {
   }
 }
 
-/* Accessibility */
 a:focus,
 button:focus,
 input:focus,
@@ -563,4 +553,5 @@ textarea:focus {
 
 .skip-link:focus {
   top: 0;
+
 }
